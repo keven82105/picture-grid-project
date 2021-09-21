@@ -1,0 +1,88 @@
+.photos {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 0.5fr, 0.5fr, 1fr, 1.5fr, 2fr, 1fr, 1fr, 1fr;
+  grid-template-areas:
+    'logo logo logo logo fb'
+    'logo logo logo logo twit '
+    'logo logo logo logo anon '
+    'pedo pedo joke toold tpink '
+    'old supa supa candy pirate '
+    'old santa blkpnk blkpnk shrek '
+    'props santa kids1 kids2 kerhs  '
+    'maks margra margra . word';
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.logo {
+  grid-area: logo;
+}
+.fb {
+  grid-area: fb;
+}
+.twit {
+  grid-area: twit;
+}
+.anon {
+  grid-area: anon;
+}
+.pedo {
+  grid-area: pedo;
+}
+.joke {
+  grid-area: joke;
+}
+.toold {
+  grid-area: toold;
+}
+.tpink {
+  grid-area: tpink;
+}
+.supa {
+  grid-area: supa;
+}
+.candy {
+  grid-area: candy;
+}
+.pirate {
+  grid-area: pirate;
+}
+.santa {
+  grid-area: santa;
+}
+.blkpnk {
+  grid-area: blkpnk;
+}
+.shrek {
+  grid-area: shrek;
+}
+.kids1 {
+  grid-area: kids1;
+}
+.kids2 {
+  grid-area: kids2;
+}
+.kerhs {
+  grid-area: kerhs;
+}
+.margra {
+  grid-area: margra;
+}
+.maks {
+  grid-area: maks;
+}
+.word {
+  grid-area: word;
+}
+.navbar {
+  border: 20px solid rgb(145, 75, 47);
+  background-color: rgb(145, 75, 47);
+  color: grey;
+  height: 50px;
+}
+body {
+  border: 20px solid lightgray;
+}
